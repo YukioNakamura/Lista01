@@ -1,38 +1,34 @@
 Algoritmo "calculadora"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 26/03/2024
+
 Var
-// Seção de Declarações das variáveis 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es das variï¿½veis 
 A:real
 B:real
 operador: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// Seï¿½ï¿½o de Comandos, procedimento, funï¿½ï¿½es, operadores, etc... 
 
 escreva("Qual o valor para A? ")
 leia(A)
 escreva("Qual o valor para B? ")
 leia(B)
 
-escreva("Qual operação?: ")
-escreva("1.Adição ")
-escreva("2.Subtração ")
-escreva("3.Divisão ")
-escreva("4.Multiplicação ")
+escreva("Qual operaï¿½ï¿½o?: ")
+escreva("1.Adiï¿½ï¿½o ")
+escreva("2.Subtraï¿½ï¿½o ")
+escreva("3.Divisï¿½o ")
+escreva("4.Multiplicaï¿½ï¿½o ")
 leia(operador)
 se operador = 1 entao
 escreva("A soma foi:", A+B)
 fimse
 se operador = 2 entao
-escreva("A subtração foi:", A-B)
+escreva("A subtraï¿½ï¿½o foi:", A-B)
 fimse
 se operador = 3 entao
-escreva("A divisão foi:", A/B)
+escreva("A divisï¿½o foi:", A/B)
 fimse
 se operador = 4 entao
-escreva("A multiplicação foi:", A*B)
+escreva("A multiplicaï¿½ï¿½o foi:", A*B)
 fimse
 Fimalgoritmo
