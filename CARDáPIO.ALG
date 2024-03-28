@@ -1,21 +1,30 @@
-Algoritmo "card�pio"
+Algoritmo "cardápio"
 
 Var
-// Se��o de Declara��es das vari�veis 
-cachorro: inteiro
-simples: inteiro
-comovo: inteiro
-hamburger: inteiro
-cheese:inteiro
-refrigerante: inteiro
+
+codigo: inteiro
+quantidade: inteiro
 Inicio
-// Se��o de Comandos, procedimento, fun��es, operadores, etc... 
-cachorro <- 101
-simples <- 102
-comovo <- 103
-hamburger <- 104
-cheese <- 105
-refrigerante <- 106
-se
+
+escreva("Qual o código do pedido? ")
+leia(codigo)
+escreva("Quantos produtos? ")
+leia(quantidade)
+
+escolha codigo
+caso 101
+escreva("O preço é de:", quantidade*12.20)
+caso 102
+escreva("O preço é de:", quantidade*5.30)
+caso 103
+escreva("O preço é de:", quantidade*6.50)
+caso 104
+escreva("O preço é de:", quantidade*10.20)
+caso 105
+escreva("O preço é de:", quantidade*12.30)
+caso 106
+escreva("O preço é de:", quantidade*6)
+
+fimescolha
 
 Fimalgoritmo
