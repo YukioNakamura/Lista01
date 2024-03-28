@@ -4,9 +4,9 @@ combustivel : real
 eficiencia : real
 
 Inicio
-escreva("Quanto litros de combust�vel foram colocados?")
+escreva("Quanto litros de combustivel foram colocados?")
 leia(combustivel)
-escreva("Qual a dist�ncia que o carro anda com 1 litro?")
+escreva("Qual a distancia que o carro anda com 1 litro?")
 leia(eficiencia)
 escreva(combustivel * eficiencia)
 
