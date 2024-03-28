@@ -1,5 +1,5 @@
 Algoritmo "calculadora"
-
+//...
 Var
 // Se��o de Declara��es das vari�veis 
 A:real
