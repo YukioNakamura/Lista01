@@ -1,20 +1,21 @@
 Algoritmo "trocatroca"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Antonio Carlos Nicolodi
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 26/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 A:real
 B:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 escreva("Qual o valor de A?")
 leia(B)
 escreva("Qual o valor de B?")
 leia(A)
-escreva("Após a alteração A vale:", A," e B vale:", B)
+escreval("Antes, A valia:", B," e B valia:", A)
+escreva("ApÃ³s a alteraÃ§Ã£o A vale:", A," e B vale:", B)
 
 Fimalgoritmo
