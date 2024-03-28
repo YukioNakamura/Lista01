@@ -1,26 +1,21 @@
-Algoritmo "competição"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 26/03/2024
+Algoritmo "competiï¿½ï¿½o"
+
 Var
-// Seção de Declarações das variáveis 
+
 joao: real
 chico: real
 pedro: real
 bola: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
 
-escreva("Pontuação do João: ")
+escreva("Pontuacao do Joao: ")
 leia(joao)
-escreva("Pontuação do Chico: ")
+escreva("Pontuacao do Chico: ")
 leia(chico)
-escreva("Ponduação do Pedro: ")
+escreva("Pontuacao do Pedro: ")
 leia(pedro)
-escreva("Pontuação do Bola: ")
+escreva("Pontuacao do Bola: ")
 leia(bola)
 se  ((joao < ((chico+pedro+bola)/2)) ou (pedro = 3*bola) ou (chico = 0) ou (bola = (pedro/2)) ou (bola < (joao+chico))) entao
 escreva("Desclassificados")
