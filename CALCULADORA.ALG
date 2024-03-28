@@ -13,7 +13,7 @@ leia(A)
 escreva("Qual o valor para B? ")
 leia(B)
 
-escreva("Qual opera��o?: ")
+escreva("Qual opera��o (escolha entre 1 e 4): ")
 escreva("1.Adi��o ")
 escreva("2.Subtra��o ")
 escreva("3.Divis�o ")
