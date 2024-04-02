@@ -8,8 +8,13 @@ Inicio
 
 escreva("Qual o código do pedido? ")
 leia(codigo)
+se ((codigo<101) ou (codigo>106)) entao
+escreva("Não temos esse produto!")
+
+senão
 escreva("Quantos produtos? ")
 leia(quantidade)
+
 
 escolha codigo
 caso 101
@@ -24,6 +29,7 @@ caso 105
 escreva("O preço é de:", quantidade*12.30)
 caso 106
 escreva("O preço é de:", quantidade*6)
+fimse
 
 fimescolha
 
